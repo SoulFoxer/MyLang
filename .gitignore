@@ -28,7 +28,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-.idea/
 
 # Default ignored files
 /shelf/
@@ -40,3 +39,4 @@ bin/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/.idea/
