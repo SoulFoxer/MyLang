@@ -1,1 +1,6 @@
-test
+t123+var
+ myint = 123
+ /
+== 42
+// test
+/* wtf*/

@@ -11,10 +11,13 @@ public class Main {
     public static void main(String[] args) throws IOException {
         try {
             String contentLang = Files.readString(Path.of(Main.class.getResource("source.mylang").toURI()));
-            System.out.println("Gelesener Inhalt: " + contentLang);
 
             Lexer lexer = new Lexer();
             List<Token> tokenList =  lexer.lex(contentLang);
+
+            for (Token token : tokenList) {
+                System.out.println(token);
+            }
         } catch (IOException e) {
             System.err.println("Fehler beim Lesen der Datei: " + e.getMessage());
         } catch (URISyntaxException e) {

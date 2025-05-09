@@ -11,6 +11,8 @@ public enum TokenType {
 
     VAR("VAR"),
 
+    PRINT("PRINT"),
+
     // Logical operators
     AND("AND"),
     OR("OR"),
@@ -36,7 +38,6 @@ public enum TokenType {
     SINGLE_LINE_COMMENT("//"),
 
     MULTI_LINE_COMMENT("/*"),
-    MULTI_LINE_COMMENT_END("*/"),
     // String operators
     CONCATENATE("CONCATENATE"),
 
